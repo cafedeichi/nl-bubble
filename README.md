@@ -56,14 +56,26 @@ $ gcloud app deploy app.yaml
 }
 ```
 
-### 4. You're Done!
+### 3. BigQuery settings
 
-Input your feelings.
+1. Create empty table.
+```
+Destination Table name  : bubbles.emotion
+Schema Name/Type :
+- message/STRING
+- score/FLOAT
+- team/STRING
+- time/TIMESTAMP
+Partitioning : None
+```
+
+### 4. You're Done!
+Input your emotion.
 ```
 https://<your-project-id>.appspot.com/
 ```
 
-Access admin page to visualize the input feelings.
+Access admin page to visualize positive/nagative emotions.
 ```
 https://<your-project-id>.appspot.com/admin
 ```
