@@ -63,9 +63,9 @@ $ gcloud app deploy app.yaml
 Destination Table name  : bubbles.emotion
 Schema Name/Type :
 - message/STRING
-- score/FLOAT
 - team/STRING
-- time/TIMESTAMP
+- score/FLOAT
+- magnitude/FLOAT
 Partitioning : None
 ```
 
